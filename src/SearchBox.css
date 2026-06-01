@@ -1,0 +1,22 @@
+.weather-form {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h3 {
+  margin-left: 15px;
+}
+
+p {
+  font-size: 25px;
+}
+p span {
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
