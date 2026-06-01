@@ -1,16 +1,68 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive weather application built with React. It lets users search for a city and view live weather details in a clean interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search weather by city name
+- View temperature, humidity, wind speed, and weather conditions
+- Responsive design for mobile and desktop
+- Clean and user-friendly UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- HTML
+- CSS
+- Weather API
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js installed
+- API key from a weather service provider
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd minor-project
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Add your weather API key to the project configuration.
+
+5. Start the app:
+
+   ```bash
+   npm start
+   ```
+
+## Usage
+
+1. Enter a city name in the search field.
+2. Click the search button.
+3. View the current weather information.
+
+## Notes
+
+- Make sure the API key is valid before running the app.
+- An internet connection is required to fetch live weather data.
+
+## License
+
+This project is for educational purposes.
